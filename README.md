@@ -15,4 +15,4 @@ determined using nested cross-validation and a DNN. To train and evaluate an MDP
 python Q-table-replay.py
 ```
 
-If you want to change any of the hyperparameters, use the `-h` flag for more options.
+If you want to change any of the hyperparameters such as acquisition cost, learning rate, epsilon... use the `-h` flag for more options.
