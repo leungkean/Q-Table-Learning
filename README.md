@@ -25,4 +25,4 @@ For the `molecule_20` dataset the top 20 features are:
 
 The Q-table results using the `molecule_20` dataset for acquisition cost 0.05, 0.02, 0.01, 0.001, and 1e-4 are [here](https://drive.google.com/drive/folders/1HeSLbTKIQqXf_7Sns0uwQPVARMSdIo4O?usp=sharing).
 
-The Q-table are store in pickle files with the format `q_table_[cost].pkl`.
+The Q-tables are store in pickle files with the format `q_table_[cost].pkl`.
