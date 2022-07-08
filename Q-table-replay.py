@@ -163,8 +163,10 @@ class QTable:
             self.lr -= self.lr_decay/self.num_episodes
 
         # Save Q-table
+        """
         with open(f"q_table_{args.cost}.pkl", "wb") as f:
             pickle.dump(self.q_table, f)
+        """
             
     def test(self, test_env, test_size=640): 
         acc = [] 
@@ -214,7 +216,6 @@ def main():
 
     env = DirectClassificationEnv(
             dataset_manager,
-            correct_reward=1.0,
             incorrect_reward=-1.0,
             acquisition_cost=args.cost,
     )
@@ -228,7 +229,6 @@ def main():
     )
     test_env = DirectClassificationEnv(
             test_dataset_manager,
-            correct_reward=1.0,
             incorrect_reward=-1.0,
             acquisition_cost=args.cost,
     )

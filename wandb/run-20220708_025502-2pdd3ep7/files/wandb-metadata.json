@@ -1,0 +1,16 @@
+{
+    "os": "macOS-12.4-arm64-arm-64bit",
+    "python": "3.9.13",
+    "heartbeatAt": "2022-07-08T06:55:03.190687",
+    "startedAt": "2022-07-08T06:55:02.326938",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/Q-table-replay.py",
+    "codePath": "Q-table-replay.py",
+    "host": "Keans-Mac-mini.local",
+    "username": "keanl",
+    "executable": "/opt/homebrew/Caskroom/miniforge/base/bin/python3"
+}
