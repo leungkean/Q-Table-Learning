@@ -218,3 +218,151 @@
 2022-07-08 18:47:02,850 INFO    SenderThread:18092 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
 2022-07-08 18:47:03,734 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/output.log
 2022-07-08 18:47:03,734 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/wandb-summary.json
+2022-07-08 18:47:04,736 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/output.log
+2022-07-08 18:47:06,391 DEBUG   HandlerThread:18092 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-08 18:47:06,392 DEBUG   SenderThread:18092 [sender.py:send():235] send: history
+2022-07-08 18:47:06,392 DEBUG   SenderThread:18092 [sender.py:send():235] send: summary
+2022-07-08 18:47:06,393 INFO    SenderThread:18092 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-08 18:47:06,741 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/output.log
+2022-07-08 18:47:06,742 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/wandb-summary.json
+2022-07-08 18:47:08,748 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/output.log
+2022-07-08 18:47:09,886 DEBUG   HandlerThread:18092 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-08 18:47:09,886 DEBUG   HandlerThread:18092 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 18:47:09,886 DEBUG   SenderThread:18092 [sender.py:send():235] send: history
+2022-07-08 18:47:09,886 DEBUG   SenderThread:18092 [sender.py:send():235] send: summary
+2022-07-08 18:47:09,887 INFO    SenderThread:18092 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-08 18:47:09,887 DEBUG   SenderThread:18092 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 18:47:10,756 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/output.log
+2022-07-08 18:47:10,757 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/wandb-summary.json
+2022-07-08 18:47:12,765 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/output.log
+2022-07-08 18:47:13,331 DEBUG   HandlerThread:18092 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-08 18:47:13,332 DEBUG   SenderThread:18092 [sender.py:send():235] send: history
+2022-07-08 18:47:13,332 DEBUG   SenderThread:18092 [sender.py:send():235] send: summary
+2022-07-08 18:47:13,332 INFO    SenderThread:18092 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-08 18:47:13,765 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/wandb-summary.json
+2022-07-08 18:47:14,770 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/output.log
+2022-07-08 18:47:16,776 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/output.log
+2022-07-08 18:47:16,873 DEBUG   HandlerThread:18092 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-08 18:47:16,874 DEBUG   SenderThread:18092 [sender.py:send():235] send: history
+2022-07-08 18:47:16,874 DEBUG   SenderThread:18092 [sender.py:send():235] send: summary
+2022-07-08 18:47:16,874 INFO    SenderThread:18092 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-08 18:47:17,780 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/wandb-summary.json
+2022-07-08 18:47:18,785 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/output.log
+2022-07-08 18:47:20,388 DEBUG   HandlerThread:18092 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-08 18:47:20,389 DEBUG   SenderThread:18092 [sender.py:send():235] send: history
+2022-07-08 18:47:20,389 DEBUG   SenderThread:18092 [sender.py:send():235] send: summary
+2022-07-08 18:47:20,390 INFO    SenderThread:18092 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-08 18:47:20,569 DEBUG   SenderThread:18092 [sender.py:send():235] send: stats
+2022-07-08 18:47:20,793 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/output.log
+2022-07-08 18:47:20,793 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/wandb-summary.json
+2022-07-08 18:47:22,798 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/output.log
+2022-07-08 18:47:24,075 DEBUG   HandlerThread:18092 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-08 18:47:24,075 DEBUG   SenderThread:18092 [sender.py:send():235] send: history
+2022-07-08 18:47:24,076 DEBUG   SenderThread:18092 [sender.py:send():235] send: summary
+2022-07-08 18:47:24,077 INFO    SenderThread:18092 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-08 18:47:24,802 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/output.log
+2022-07-08 18:47:24,802 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/wandb-summary.json
+2022-07-08 18:47:24,998 DEBUG   HandlerThread:18092 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 18:47:25,009 DEBUG   SenderThread:18092 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 18:47:26,809 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/output.log
+2022-07-08 18:47:27,555 DEBUG   HandlerThread:18092 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-08 18:47:27,555 DEBUG   SenderThread:18092 [sender.py:send():235] send: history
+2022-07-08 18:47:27,556 DEBUG   SenderThread:18092 [sender.py:send():235] send: summary
+2022-07-08 18:47:27,556 INFO    SenderThread:18092 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-08 18:47:27,813 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/wandb-summary.json
+2022-07-08 18:47:28,815 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/output.log
+2022-07-08 18:47:30,822 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/output.log
+2022-07-08 18:47:31,028 DEBUG   HandlerThread:18092 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-08 18:47:31,028 DEBUG   SenderThread:18092 [sender.py:send():235] send: history
+2022-07-08 18:47:31,029 DEBUG   SenderThread:18092 [sender.py:send():235] send: summary
+2022-07-08 18:47:31,029 INFO    SenderThread:18092 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-08 18:47:31,825 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/wandb-summary.json
+2022-07-08 18:47:32,827 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/output.log
+2022-07-08 18:47:34,516 DEBUG   HandlerThread:18092 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-08 18:47:34,517 DEBUG   SenderThread:18092 [sender.py:send():235] send: history
+2022-07-08 18:47:34,518 DEBUG   SenderThread:18092 [sender.py:send():235] send: summary
+2022-07-08 18:47:34,518 INFO    SenderThread:18092 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-08 18:47:34,834 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/output.log
+2022-07-08 18:47:34,834 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/wandb-summary.json
+2022-07-08 18:47:36,837 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/output.log
+2022-07-08 18:47:38,009 DEBUG   HandlerThread:18092 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-08 18:47:38,010 DEBUG   SenderThread:18092 [sender.py:send():235] send: history
+2022-07-08 18:47:38,010 DEBUG   SenderThread:18092 [sender.py:send():235] send: summary
+2022-07-08 18:47:38,010 INFO    SenderThread:18092 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-08 18:47:38,843 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/output.log
+2022-07-08 18:47:38,844 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/wandb-summary.json
+2022-07-08 18:47:40,115 DEBUG   HandlerThread:18092 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 18:47:40,115 DEBUG   SenderThread:18092 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 18:47:40,850 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/output.log
+2022-07-08 18:47:41,414 DEBUG   HandlerThread:18092 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-08 18:47:41,415 DEBUG   SenderThread:18092 [sender.py:send():235] send: history
+2022-07-08 18:47:41,415 DEBUG   SenderThread:18092 [sender.py:send():235] send: summary
+2022-07-08 18:47:41,416 INFO    SenderThread:18092 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-08 18:47:41,854 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/wandb-summary.json
+2022-07-08 18:47:42,859 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/output.log
+2022-07-08 18:47:44,866 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/output.log
+2022-07-08 18:47:45,060 DEBUG   HandlerThread:18092 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-08 18:47:45,061 DEBUG   SenderThread:18092 [sender.py:send():235] send: history
+2022-07-08 18:47:45,061 DEBUG   SenderThread:18092 [sender.py:send():235] send: summary
+2022-07-08 18:47:45,061 INFO    SenderThread:18092 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-08 18:47:45,870 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/wandb-summary.json
+2022-07-08 18:47:46,873 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/output.log
+2022-07-08 18:47:48,584 DEBUG   HandlerThread:18092 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-08 18:47:48,585 DEBUG   SenderThread:18092 [sender.py:send():235] send: history
+2022-07-08 18:47:48,585 DEBUG   SenderThread:18092 [sender.py:send():235] send: summary
+2022-07-08 18:47:48,586 INFO    SenderThread:18092 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-08 18:47:48,879 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/output.log
+2022-07-08 18:47:48,879 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/wandb-summary.json
+2022-07-08 18:47:50,884 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/output.log
+2022-07-08 18:47:52,177 DEBUG   HandlerThread:18092 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-08 18:47:52,205 DEBUG   SenderThread:18092 [sender.py:send():235] send: history
+2022-07-08 18:47:52,205 DEBUG   SenderThread:18092 [sender.py:send():235] send: summary
+2022-07-08 18:47:52,205 INFO    SenderThread:18092 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-08 18:47:52,891 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/output.log
+2022-07-08 18:47:52,891 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/wandb-summary.json
+2022-07-08 18:47:54,896 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/output.log
+2022-07-08 18:47:55,243 DEBUG   HandlerThread:18092 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 18:47:55,243 DEBUG   SenderThread:18092 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 18:47:55,848 DEBUG   SenderThread:18092 [sender.py:send():235] send: stats
+2022-07-08 18:47:55,863 DEBUG   HandlerThread:18092 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-08 18:47:55,864 DEBUG   SenderThread:18092 [sender.py:send():235] send: history
+2022-07-08 18:47:55,864 DEBUG   SenderThread:18092 [sender.py:send():235] send: summary
+2022-07-08 18:47:55,864 INFO    SenderThread:18092 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-08 18:47:55,898 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/wandb-summary.json
+2022-07-08 18:47:56,903 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/output.log
+2022-07-08 18:47:58,907 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/output.log
+2022-07-08 18:47:59,409 DEBUG   HandlerThread:18092 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-08 18:47:59,410 DEBUG   SenderThread:18092 [sender.py:send():235] send: history
+2022-07-08 18:47:59,410 DEBUG   SenderThread:18092 [sender.py:send():235] send: summary
+2022-07-08 18:47:59,410 INFO    SenderThread:18092 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-08 18:47:59,912 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/wandb-summary.json
+2022-07-08 18:48:00,916 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/output.log
+2022-07-08 18:48:02,923 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/output.log
+2022-07-08 18:48:02,965 DEBUG   HandlerThread:18092 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-08 18:48:02,966 DEBUG   SenderThread:18092 [sender.py:send():235] send: history
+2022-07-08 18:48:02,966 DEBUG   SenderThread:18092 [sender.py:send():235] send: summary
+2022-07-08 18:48:02,966 INFO    SenderThread:18092 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-08 18:48:03,928 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/wandb-summary.json
+2022-07-08 18:48:04,929 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/output.log
+2022-07-08 18:48:06,490 DEBUG   HandlerThread:18092 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-08 18:48:06,490 DEBUG   SenderThread:18092 [sender.py:send():235] send: history
+2022-07-08 18:48:06,490 DEBUG   SenderThread:18092 [sender.py:send():235] send: summary
+2022-07-08 18:48:06,491 INFO    SenderThread:18092 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-08 18:48:06,937 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/output.log
+2022-07-08 18:48:06,937 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/wandb-summary.json
+2022-07-08 18:48:08,946 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/output.log
+2022-07-08 18:48:09,997 DEBUG   HandlerThread:18092 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-08 18:48:09,998 DEBUG   SenderThread:18092 [sender.py:send():235] send: history
+2022-07-08 18:48:09,998 DEBUG   SenderThread:18092 [sender.py:send():235] send: summary
+2022-07-08 18:48:09,998 INFO    SenderThread:18092 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-08 18:48:10,392 DEBUG   HandlerThread:18092 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 18:48:10,393 DEBUG   SenderThread:18092 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 18:48:10,950 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/output.log
+2022-07-08 18:48:10,950 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/wandb-summary.json
+2022-07-08 18:48:12,959 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/output.log
+2022-07-08 18:48:13,604 DEBUG   HandlerThread:18092 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-08 18:48:13,605 DEBUG   SenderThread:18092 [sender.py:send():235] send: history
+2022-07-08 18:48:13,605 DEBUG   SenderThread:18092 [sender.py:send():235] send: summary
+2022-07-08 18:48:13,605 INFO    SenderThread:18092 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-08 18:48:13,960 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/wandb-summary.json
+2022-07-08 18:48:14,964 INFO    Thread-7  :18092 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220708_184535-qpkc31vq/files/output.log
