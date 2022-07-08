@@ -16,3 +16,13 @@ python Q-table-replay.py
 ```
 
 If you want to change any of the hyperparameters such as acquisition cost, learning rate, epsilon... use the `-h` flag for more options.
+
+## Q-Table Results
+
+For the `molecule_20` dataset the top 20 features are:
+
+`[234, 244, 322, 356, 393, 698, 725, 790, 792, 841,  80, 350, 465, 573, 583, 879, 901, 675, 147, 833]`
+
+The Q-table results using the `molecule_20` dataset for acquisition cost 0.05, 0.02, 0.01, 0.001, and 1e-4 are [here](https://drive.google.com/drive/folders/1HeSLbTKIQqXf_7Sns0uwQPVARMSdIo4O?usp=sharing).
+
+The Q-tables are store in pickle files with the format `q_table_[cost].pkl`.
