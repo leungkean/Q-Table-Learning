@@ -18,14 +18,14 @@ import wandb
 
 # Hyperparameters
 parser = argparse.ArgumentParser()
-parser.add_argument('--env', type=str, default='molecule_20', help='Dataset used for environment')
-parser.add_argument('--lr', type=float, default=5e-4, help='Learning rate')
-parser.add_argument('--lr_decay', type=float, default=0., help='Learning rate decay')
-parser.add_argument('--y', type=float, default=0.99, help='Discount factor (gamma)')
-parser.add_argument('--eps', type=float, default=1.0, help='Epsilon for epsilon-greedy policy')
+parser.add_argument('--env', type=str, default='molecule_20',  help='Dataset used for environment')
+parser.add_argument('--lr', type=float, default=5e-4,          help='Learning rate')
+parser.add_argument('--lr_decay', type=float, default=0.,      help='Learning rate decay')
+parser.add_argument('--y', type=float, default=0.99,           help='Discount factor (gamma)')
+parser.add_argument('--eps', type=float, default=1.0,          help='Epsilon for epsilon-greedy policy')
 parser.add_argument('--eps_decay', type=float, default=0.9999, help='Epsilon decay')
-parser.add_argument('--min_eps', type=float, default=1e-4, help='Minimum epsilon')
-parser.add_argument('--cost', type=float, default=0.01, help='Acquisition cost')
+parser.add_argument('--min_eps', type=float, default=1e-4,     help='Minimum epsilon')
+parser.add_argument('--cost', type=float, default=0.01,        help='Acquisition cost')
 
 args = parser.parse_args()
 
@@ -33,7 +33,7 @@ config = {"env": args.env, "lr": args.lr, "lr_decay": args.lr_decay, "y": args.y
 wandb.init(name='Q-table', project="deep-rl-tf2", config=config)
 
 class ReplayBuffer:
-    def __init__(self, capacity=100000, batch_size=1024):
+    def __init__(self, capacity=10000, batch_size=512):
         self.buffer = deque(maxlen=capacity)
         self.batch_size = batch_size
 
@@ -68,7 +68,7 @@ class QTable:
         # Keep list of states used to build the Q-table 
         # Starts off with just the initial state
         self.q_table = {} 
-        self.q_table[tuple(np.zeros(self.state_dim, dtype=np.byte))] = np.zeros(self.action_dim, dtype=np.float32) - 1.0
+        self.q_table[tuple(np.zeros(self.state_dim, dtype=np.byte))] = np.array([-args.cost if i < self.state_dim else 0 for i in range(self.action_dim)], dtype=np.float32)
 
         # Initialize Replay
         self.replay_buffer = ReplayBuffer()
@@ -121,7 +121,7 @@ class QTable:
                 total_reward += r
                 # Initialize Q-table row for new state s1 
                 if s1 not in self.q_table: 
-                    self.q_table[s1] = np.zeros(self.action_dim, dtype=np.float32) - 1.0
+                    self.q_table[s1] = np.array([-args.cost if i < self.state_dim else 0 for i in range(self.action_dim)], dtype=np.float32)
                     new_states += 1
                 else:
                     reused_states += 1
