@@ -33,7 +33,7 @@ config = {"env": args.env, "lr": args.lr, "lr_decay": args.lr_decay, "y": args.y
 wandb.init(name='Q-table', project="deep-rl-tf2", config=config)
 
 class ReplayBuffer:
-    def __init__(self, capacity=10000, batch_size=512):
+    def __init__(self, capacity=100000, batch_size=1024):
         self.buffer = deque(maxlen=capacity)
         self.batch_size = batch_size
 
@@ -63,12 +63,12 @@ class QTable:
         self.eps_decay = eps_decay
         self.min_eps = min_eps
         self.train_size = train_size
-        self.num_episodes = 30*self.train_size
+        self.num_episodes = 100*self.train_size
 
         # Keep list of states used to build the Q-table 
         # Starts off with just the initial state
         self.q_table = {} 
-        self.q_table[tuple(np.zeros(self.state_dim, dtype=np.byte))] = np.zeros(self.action_dim, dtype=np.float32)
+        self.q_table[tuple(np.zeros(self.state_dim, dtype=np.byte))] = np.zeros(self.action_dim, dtype=np.float32) - 1.0
 
         # Initialize Replay
         self.replay_buffer = ReplayBuffer()
@@ -121,7 +121,7 @@ class QTable:
                 total_reward += r
                 # Initialize Q-table row for new state s1 
                 if s1 not in self.q_table: 
-                    self.q_table[s1] = np.zeros(self.action_dim, dtype=np.float32)
+                    self.q_table[s1] = np.zeros(self.action_dim, dtype=np.float32) - 1.0
                     new_states += 1
                 else:
                     reused_states += 1
@@ -140,10 +140,10 @@ class QTable:
 
             # Replay past experiences
             self.replay()
-            self.replay_buffer.shuffle()
 
             # Print info
             if ep % 100 == 0 and ep > 0: 
+                self.replay_buffer.shuffle()
                 acc_mean = np.mean(acc) 
                 rList_mean = np.mean(rList) 
                 print("Episode: {} Mean Reward: {}".format(ep, rList_mean)) 
@@ -163,10 +163,8 @@ class QTable:
             self.lr -= self.lr_decay/self.num_episodes
 
         # Save Q-table
-        """
         with open(f"q_table_{args.cost}.pkl", "wb") as f:
             pickle.dump(self.q_table, f)
-        """
             
     def test(self, test_env, test_size=640): 
         acc = [] 
@@ -195,7 +193,7 @@ class QTable:
                 else: 
                     best_action = np.flip(np.argsort(self.q_table[s]))
                     for a in best_action: 
-                        if a in actions_remain: 
+                        if a in actions_remain:
                             next_action = a
                             actions_remain.remove(next_action)
                             break
@@ -216,7 +214,6 @@ def main():
 
     env = DirectClassificationEnv(
             dataset_manager,
-            correct_reward=1.0,
             incorrect_reward=-1.0,
             acquisition_cost=args.cost,
     )
@@ -230,7 +227,6 @@ def main():
     )
     test_env = DirectClassificationEnv(
             test_dataset_manager,
-            correct_reward=1.0,
             incorrect_reward=-1.0,
             acquisition_cost=args.cost,
     )
