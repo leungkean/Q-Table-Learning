@@ -1,0 +1,5 @@
+
+2022-08-29 10:25:22.907958: W tensorflow/core/platform/profile_utils/cpu_utils.cc:128] Failed to get CPU frequency: 0 Hz
+Metal device set to: Apple M1
+systemMemory: 8.00 GB
+maxCacheSize: 2.67 GB

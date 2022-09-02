@@ -1,0 +1,27 @@
+2022-08-26 20:53:06,340 INFO    MainThread:58989 [wandb_setup.py:_flush():76] Loading settings from /Users/keanl/.config/wandb/settings
+2022-08-26 20:53:06,340 INFO    MainThread:58989 [wandb_setup.py:_flush():76] Loading settings from /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/settings
+2022-08-26 20:53:06,341 INFO    MainThread:58989 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-08-26 20:53:06,341 INFO    MainThread:58989 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'Q-table-replay.py', 'program': '/Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/Q-table-replay.py'}
+2022-08-26 20:53:06,341 INFO    MainThread:58989 [wandb_init.py:_log_setup():428] Logging user logs to /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220826_205306-doe76sr9/logs/debug.log
+2022-08-26 20:53:06,341 INFO    MainThread:58989 [wandb_init.py:_log_setup():429] Logging internal logs to /Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/wandb/run-20220826_205306-doe76sr9/logs/debug-internal.log
+2022-08-26 20:53:06,341 INFO    MainThread:58989 [wandb_init.py:init():462] calling init triggers
+2022-08-26 20:53:06,341 INFO    MainThread:58989 [wandb_init.py:init():465] wandb.init called with sweep_config: {}
+config: {'env': 'psych_Compulsivity', 'lr': 0.0005, 'lr_decay': 0.0, 'y': 0.99, 'eps': 1.0, 'eps_decay': 0.99999, 'min_eps': 0.0001, 'cost': 0.01}
+2022-08-26 20:53:06,341 INFO    MainThread:58989 [wandb_init.py:init():515] starting backend
+2022-08-26 20:53:06,341 INFO    MainThread:58989 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2022-08-26 20:53:06,352 INFO    MainThread:58989 [backend.py:ensure_launched():217] starting backend process...
+2022-08-26 20:53:06,357 INFO    MainThread:58989 [backend.py:ensure_launched():222] started backend process with pid: 58993
+2022-08-26 20:53:06,359 INFO    MainThread:58989 [wandb_init.py:init():525] backend started and connected
+2022-08-26 20:53:06,376 INFO    MainThread:58989 [wandb_init.py:init():596] updated telemetry
+2022-08-26 20:53:06,377 INFO    MainThread:58989 [wandb_init.py:init():627] communicating run to backend with 30 second timeout
+2022-08-26 20:53:06,887 INFO    MainThread:58989 [wandb_run.py:_on_init():1924] communicating current version
+2022-08-26 20:53:06,950 INFO    MainThread:58989 [wandb_run.py:_on_init():1928] got version response upgrade_message: "wandb version 0.13.2 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2022-08-26 20:53:06,950 INFO    MainThread:58989 [wandb_init.py:init():662] starting run threads in backend
+2022-08-26 20:53:09,392 INFO    MainThread:58989 [wandb_run.py:_console_start():1898] atexit reg
+2022-08-26 20:53:09,392 INFO    MainThread:58989 [wandb_run.py:_redirect():1771] redirect: SettingsConsole.REDIRECT
+2022-08-26 20:53:09,393 INFO    MainThread:58989 [wandb_run.py:_redirect():1776] Redirecting console.
+2022-08-26 20:53:09,393 INFO    MainThread:58989 [wandb_run.py:_redirect():1832] Redirects installed.
+2022-08-26 20:53:09,393 INFO    MainThread:58989 [wandb_init.py:init():688] run started, returning control to user process
+2022-08-26 20:55:05,332 INFO    MainThread:58989 [wandb_run.py:_atexit_cleanup():1867] got exitcode: 255
+2022-08-26 20:55:05,341 INFO    MainThread:58989 [wandb_run.py:_restore():1839] restore

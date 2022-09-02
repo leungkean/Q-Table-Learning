@@ -1,0 +1,128 @@
+
+[1mDownloading and preparing dataset Unknown size (download: Unknown size, generated: Unknown size, total: Unknown size) to /Users/keanl/tensorflow_datasets/psych__compulsivity/1.0.0...
+2022-08-27 00:46:28.330834: W tensorflow/core/platform/cloud/google_auth_provider.cc:184] All attempts to get a Google authentication bearer token failed, returning an empty token. Retrieving token from files failed with "NOT_FOUND: Could not locate the credentials file.". Retrieving token from GCE failed with "FAILED_PRECONDITION: Error executing an HTTP request: libcurl code 6 meaning 'Couldn't resolve host name', error details: Could not resolve host: metadata".
+[1mDataset psych__compulsivity downloaded and prepared to /Users/keanl/tensorflow_datasets/psych__compulsivity/1.0.0. Subsequent calls will reuse this data.
+Metal device set to: Apple M1
+systemMemory: 8.00 GB
+maxCacheSize: 2.67 GB
+Downloading...
+From: https://drive.google.com/uc?id=1SZSkPaOmDDSQRDqfwtQBUr-EouL0nJos
+To: /Users/keanl/tensorflow_datasets/downloads/psych_Compulsivity.pkl
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1.68M/1.68M [00:00<00:00, 15.1MB/s]
+2022-08-27 00:46:31.602880: W tensorflow/core/platform/profile_utils/cpu_utils.cc:128] Failed to get CPU frequency: 0 Hz
+2022-08-27 00:46:33,418	INFO services.py:1456 -- View the Ray dashboard at [32m[1mhttp://127.0.0.1:8265
+[36m(pid=66587)[39m /opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/jax/_src/lib/__init__.py:33: UserWarning: JAX on Mac ARM machines is experimental and minimally tested. Please see https://github.com/google/jax/issues/5501 in the event of problems.
+[36m(pid=66587)[39m   warnings.warn("JAX on Mac ARM machines is experimental and minimally tested. "
+  0%|                                                                                                                                                                        | 70/262050 [00:00<07:07, 613.45it/s]
+(40,)
+Episode: 100 Mean Reward: -0.5275445544554455
+Accuracy: 0.48514851485148514
+New States: 598 (80.59299191374663%)
+Q-table size: 599
+
+  0%|▏                                                                                                                                                                     | 214/262050 [00:02<1:08:03, 64.12it/s]
+Episode: 200 Mean Reward: -0.49395999999999995
+Accuracy: 0.52
+New States: 632 (79.19799498746868%)
+Q-table size: 1231
+
+  0%|▏                                                                                                                                                                     | 328/262050 [00:04<1:17:42, 56.14it/s]
+Episode: 300 Mean Reward: -0.49013999999999996
+Accuracy: 0.52
+New States: 419 (69.02800658978583%)
+Q-table size: 1650
+
+  0%|▎                                                                                                                                                                     | 442/262050 [00:06<1:20:30, 54.16it/s]
+Episode: 400 Mean Reward: -0.4608399999999999
+Accuracy: 0.55
+New States: 446 (69.47040498442368%)
+Q-table size: 2096
+
+  0%|▎                                                                                                                                                                     | 550/262050 [00:08<1:21:33, 53.44it/s]
+Episode: 500 Mean Reward: -0.48001999999999995
+Accuracy: 0.53
+New States: 399 (66.38935108153078%)
+Q-table size: 2495
+
+  0%|▍                                                                                                                                                                     | 652/262050 [00:10<1:24:15, 51.71it/s]
+Episode: 600 Mean Reward: -0.47021999999999997
+Accuracy: 0.54
+New States: 420 (68.73977086743044%)
+Q-table size: 2915
+
+  0%|▍                                                                                                                                                                     | 751/262050 [00:12<1:26:31, 50.33it/s]
+Episode: 700 Mean Reward: -0.4809199999999999
+Accuracy: 0.53
+New States: 449 (69.50464396284829%)
+Q-table size: 3364
+
+  0%|▌                                                                                                                                                                     | 857/262050 [00:14<1:27:05, 49.99it/s]
+Episode: 800 Mean Reward: -0.4908400000000001
+Accuracy: 0.52
+New States: 431 (67.13395638629284%)
+Q-table size: 3795
+
+  0%|▌                                                                                                                                                                     | 954/262050 [00:16<1:30:16, 48.21it/s]
+Episode: 900 Mean Reward: -0.61846
+Accuracy: 0.39
+New States: 319 (60.994263862332694%)
+Q-table size: 4114
+
+  0%|▋                                                                                                                                                                    | 1056/262050 [00:18<1:30:14, 48.21it/s]
+Episode: 1000 Mean Reward: -0.43853999999999993
+Accuracy: 0.57
+New States: 312 (59.20303605313093%)
+Q-table size: 4426
+
+  0%|▋                                                                                                                                                                    | 1157/262050 [00:21<1:28:38, 49.05it/s]
+Episode: 1100 Mean Reward: -0.43883999999999995
+Accuracy: 0.57
+New States: 334 (61.62361623616236%)
+Q-table size: 4760
+
+  0%|▊                                                                                                                                                                    | 1257/262050 [00:23<1:28:28, 49.13it/s]
+Episode: 1200 Mean Reward: -0.55838
+Accuracy: 0.45
+New States: 316 (60.886319845857415%)
+Q-table size: 5076
+
+  1%|▊                                                                                                                                                                    | 1352/262050 [00:25<1:29:04, 48.78it/s]
+Episode: 1300 Mean Reward: -0.48675999999999986
+Accuracy: 0.52
+New States: 234 (53.42465753424658%)
+Q-table size: 5310
+  1%|▉                                                                                                                                                                    | 1436/262050 [00:26<1:21:24, 53.36it/s]
+Traceback (most recent call last):
+  File "/Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/Q-table-replay.py", line 240, in <module>
+    main()
+  File "/Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/Q-table-replay.py", line 226, in main
+    qtable.train()
+  File "/Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/Q-table-replay.py", line 144, in train
+    self.replay()
+  File "/Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/Q-table-replay.py", line 95, in replay
+    self.q_table[state][action] += self.lr * (reward + self.y * np.max(self.q_table[next_state]) - self.q_table[state][action])
+  File "<__array_function__ internals>", line 180, in amax
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/numpy/core/fromnumeric.py", line 2791, in amax
+    return _wrapreduction(a, np.maximum, 'max', axis, None, out,
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/numpy/core/fromnumeric.py", line 86, in _wrapreduction
+    return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/Q-table-replay.py", line 240, in <module>
+    main()
+  File "/Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/Q-table-replay.py", line 226, in main
+    qtable.train()
+  File "/Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/Q-table-replay.py", line 144, in train
+    self.replay()
+  File "/Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/Q-table-replay.py", line 95, in replay
+    self.q_table[state][action] += self.lr * (reward + self.y * np.max(self.q_table[next_state]) - self.q_table[state][action])
+  File "<__array_function__ internals>", line 180, in amax
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/numpy/core/fromnumeric.py", line 2791, in amax
+    return _wrapreduction(a, np.maximum, 'max', axis, None, out,
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/numpy/core/fromnumeric.py", line 86, in _wrapreduction
+    return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+KeyboardInterrupt
+Episode: 1400 Mean Reward: -0.49920000000000003
+Accuracy: 0.51
+New States: 345 (61.607142857142854%)
+Q-table size: 5655

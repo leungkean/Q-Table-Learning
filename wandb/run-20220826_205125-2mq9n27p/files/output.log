@@ -1,0 +1,47 @@
+
+2022-08-26 20:51:28.490776: W tensorflow/core/platform/profile_utils/cpu_utils.cc:128] Failed to get CPU frequency: 0 Hz
+Metal device set to: Apple M1
+systemMemory: 8.00 GB
+maxCacheSize: 2.67 GB
+2022-08-26 20:51:30,313	INFO services.py:1456 -- View the Ray dashboard at [32m[1mhttp://127.0.0.1:8265
+[36m(pid=58811)[39m /opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/jax/_src/lib/__init__.py:33: UserWarning: JAX on Mac ARM machines is experimental and minimally tested. Please see https://github.com/google/jax/issues/5501 in the event of problems.
+[36m(pid=58811)[39m   warnings.warn("JAX on Mac ARM machines is experimental and minimally tested. "
+Episode: 100 Mean Reward: -0.5921782178217821
+Accuracy: 0.45544554455445546
+New States: 966 (88.95027624309392%)
+Q-table size: 967
+  0%|                                                                                                                                                                      | 131/262050 [00:01<1:03:19, 68.94it/s]
+Episode: 200 Mean Reward: -0.5679
+Accuracy: 0.48
+New States: 904 (86.4244741873805%)
+
+  0%|▏                                                                                                                                                                     | 240/262050 [00:03<1:25:06, 51.27it/s]
+Episode: 300 Mean Reward: -0.6314
+Accuracy: 0.42
+New States: 1033 (87.46824724809484%)
+
+  0%|▏                                                                                                                                                                     | 342/262050 [00:05<1:27:02, 50.12it/s]
+Episode: 400 Mean Reward: -0.5861999999999999
+Accuracy: 0.46
+New States: 854 (84.13793103448276%)
+
+  0%|▎                                                                                                                                                                     | 444/262050 [00:07<1:30:25, 48.22it/s]
+Episode: 500 Mean Reward: -0.5174
+Accuracy: 0.53
+New States: 880 (84.2911877394636%)
+
+  0%|▎                                                                                                                                                                     | 539/262050 [00:09<1:32:13, 47.26it/s]
+Episode: 600 Mean Reward: -0.5595
+Accuracy: 0.49
+New States: 943 (84.64991023339317%)
+
+  0%|▍                                                                                                                                                                     | 629/262050 [00:11<1:33:41, 46.50it/s]
+Episode: 700 Mean Reward: -0.4789
+Accuracy: 0.57
+New States: 852 (82.87937743190662%)
+
+  0%|▍                                                                                                                                                                     | 724/262050 [00:13<1:35:20, 45.68it/s]
+Episode: 800 Mean Reward: -0.5068
+Accuracy: 0.54
+New States: 916 (84.57987072945522%)
+

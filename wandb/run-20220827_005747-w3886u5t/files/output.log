@@ -1,0 +1,336 @@
+Metal device set to: Apple M1
+systemMemory: 8.00 GB
+maxCacheSize: 2.67 GB
+2022-08-27 00:57:50.152063: W tensorflow/core/platform/profile_utils/cpu_utils.cc:128] Failed to get CPU frequency: 0 Hz
+2022-08-27 00:57:51,961	INFO services.py:1456 -- View the Ray dashboard at [32m[1mhttp://127.0.0.1:8265
+Episode: 100 Mean Reward: -0.4485346534653466
+Accuracy: 0.5643564356435643
+New States: 715 (87.62254901960785%)
+Q-table size: 716
+[36m(pid=67014)[39m /opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/jax/_src/lib/__init__.py:33: UserWarning: JAX on Mac ARM machines is experimental and minimally tested. Please see https://github.com/google/jax/issues/5501 in the event of problems.
+[36m(pid=67014)[39m   warnings.warn("JAX on Mac ARM machines is experimental and minimally tested. "
+  0%|                                                                                                                                                                        | 136/262050 [00:01<45:51, 95.20it/s]
+Episode: 200 Mean Reward: -0.4325
+Accuracy: 0.58
+New States: 650 (86.32138114209828%)
+
+  0%|▏                                                                                                                                                                     | 279/262050 [00:03<1:16:17, 57.19it/s]
+Episode: 300 Mean Reward: -0.43044
+Accuracy: 0.58
+New States: 526 (83.6248012718601%)
+
+  0%|▏                                                                                                                                                                     | 393/262050 [00:05<1:19:41, 54.72it/s]
+Episode: 400 Mean Reward: -0.50188
+Accuracy: 0.51
+New States: 590 (84.64849354375897%)
+Q-table size: 2482
+Episode: 500 Mean Reward: -0.50146
+Accuracy: 0.51
+New States: 566 (83.85185185185185%)
+
+  0%|▎                                                                                                                                                                     | 507/262050 [00:07<1:21:16, 53.64it/s]
+Episode: 600 Mean Reward: -0.64024
+Accuracy: 0.37
+New States: 509 (82.49594813614263%)
+
+  0%|▍                                                                                                                                                                     | 609/262050 [00:09<1:23:38, 52.09it/s]
+Episode: 700 Mean Reward: -0.5294399999999999
+Accuracy: 0.48
+New States: 458 (79.93019197207678%)
+
+
+  0%|▌                                                                                                                                                                     | 816/262050 [00:13<1:26:39, 50.24it/s]
+Episode: 800 Mean Reward: -0.54074
+Accuracy: 0.47
+New States: 517 (81.16169544740973%)
+
+  0%|▌                                                                                                                                                                     | 917/262050 [00:16<1:27:54, 49.51it/s]
+Episode: 900 Mean Reward: -0.4699199999999999
+Accuracy: 0.54
+New States: 481 (80.70469798657719%)
+
+  0%|▋                                                                                                                                                                    | 1016/262050 [00:18<1:29:44, 48.48it/s]
+Episode: 1000 Mean Reward: -0.5482199999999999
+Accuracy: 0.46
+New States: 398 (77.88649706457926%)
+
+  0%|▋                                                                                                                                                                    | 1113/262050 [00:20<1:32:21, 47.09it/s]
+Episode: 1100 Mean Reward: -0.55796
+Accuracy: 0.45
+New States: 372 (74.6987951807229%)
+
+  0%|▊                                                                                                                                                                    | 1213/262050 [00:22<1:28:47, 48.96it/s]
+Episode: 1200 Mean Reward: -0.55808
+Accuracy: 0.45
+New States: 385 (76.38888888888889%)
+
+  1%|▊                                                                                                                                                                    | 1313/262050 [00:24<1:29:33, 48.53it/s]
+Episode: 1300 Mean Reward: -0.51658
+Accuracy: 0.49
+New States: 307 (71.56177156177156%)
+
+  1%|▉                                                                                                                                                                    | 1413/262050 [00:26<1:30:22, 48.07it/s]
+Episode: 1400 Mean Reward: -0.49701999999999996
+Accuracy: 0.51
+New States: 339 (75.16629711751663%)
+
+  1%|▉                                                                                                                                                                    | 1508/262050 [00:28<1:32:16, 47.06it/s]
+Episode: 1500 Mean Reward: -0.55778
+Accuracy: 0.45
+New States: 366 (74.6938775510204%)
+
+  1%|█                                                                                                                                                                    | 1603/262050 [00:30<1:32:57, 46.70it/s]
+Episode: 1600 Mean Reward: -0.49742000000000003
+Accuracy: 0.51
+New States: 350 (74.3099787685775%)
+
+  1%|█                                                                                                                                                                    | 1698/262050 [00:32<1:34:07, 46.10it/s]
+Episode: 1700 Mean Reward: -0.44768
+Accuracy: 0.56
+New States: 355 (73.19587628865979%)
+
+  1%|█▏                                                                                                                                                                   | 1793/262050 [00:34<1:33:14, 46.52it/s]
+Episode: 1800 Mean Reward: -0.56628
+Accuracy: 0.44
+New States: 293 (70.77294685990339%)
+
+  1%|█▏                                                                                                                                                                   | 1893/262050 [00:36<1:31:14, 47.52it/s]
+Episode: 1900 Mean Reward: -0.48595999999999995
+Accuracy: 0.52
+New States: 263 (66.08040201005025%)
+
+  1%|█▏                                                                                                                                                                   | 1963/262050 [00:37<1:31:27, 47.39it/s]
+Episode: 2000 Mean Reward: -0.6179399999999999
+Accuracy: 0.39
+New States: 370 (74.44668008048289%)
+
+
+  1%|█▎                                                                                                                                                                   | 2153/262050 [00:42<1:33:01, 46.57it/s]
+Episode: 2100 Mean Reward: -0.44656
+Accuracy: 0.56
+New States: 297 (69.39252336448598%)
+
+  1%|█▍                                                                                                                                                                   | 2248/262050 [00:44<1:34:57, 45.60it/s]
+Episode: 2200 Mean Reward: -0.46637999999999996
+Accuracy: 0.54
+New States: 278 (66.34844868735084%)
+Q-table size: 9386
+Episode: 2300 Mean Reward: -0.42517999999999995
+Accuracy: 0.58
+New States: 229 (63.788300835654596%)
+
+  1%|█▍                                                                                                                                                                   | 2338/262050 [00:46<1:35:35, 45.28it/s]
+Episode: 2400 Mean Reward: -0.46686
+Accuracy: 0.54
+New States: 307 (69.3002257336343%)
+
+  1%|█▌                                                                                                                                                                   | 2428/262050 [00:48<1:45:39, 40.96it/s]
+Episode: 2500 Mean Reward: -0.54426
+Accuracy: 0.46
+New States: 178 (56.86900958466454%)
+
+
+  1%|█▋                                                                                                                                                                   | 2598/262050 [00:52<1:36:42, 44.71it/s]
+Episode: 2600 Mean Reward: -0.42548
+Accuracy: 0.58
+New States: 225 (60.160427807486634%)
+
+  1%|█▋                                                                                                                                                                   | 2693/262050 [00:54<1:32:12, 46.88it/s]
+Episode: 2700 Mean Reward: -0.47508
+Accuracy: 0.53
+New States: 215 (60.73446327683616%)
+
+  1%|█▊                                                                                                                                                                   | 2788/262050 [00:56<1:32:38, 46.64it/s]
+Episode: 2800 Mean Reward: -0.4753
+Accuracy: 0.53
+New States: 223 (61.0958904109589%)
+
+  1%|█▊                                                                                                                                                                   | 2873/262050 [00:58<1:47:53, 40.04it/s]
+Episode: 2900 Mean Reward: -0.5662400000000001
+Accuracy: 0.44
+New States: 279 (67.71844660194175%)
+
+  1%|█▊                                                                                                                                                                   | 2963/262050 [01:00<1:36:32, 44.73it/s]
+Episode: 3000 Mean Reward: -0.5050999999999999
+Accuracy: 0.5
+New States: 212 (59.71830985915493%)
+
+  1%|█▉                                                                                                                                                                   | 3058/262050 [01:02<1:36:07, 44.91it/s]
+Episode: 3100 Mean Reward: -0.4650599999999999
+Accuracy: 0.54
+New States: 209 (59.20679886685552%)
+
+  1%|█▉                                                                                                                                                                   | 3148/262050 [01:04<1:33:59, 45.91it/s]
+Episode: 3200 Mean Reward: -0.4761399999999999
+Accuracy: 0.53
+New States: 253 (62.16216216216216%)
+
+  1%|██                                                                                                                                                                   | 3238/262050 [01:06<1:34:02, 45.87it/s]
+Episode: 3300 Mean Reward: -0.51518
+Accuracy: 0.49
+New States: 221 (61.559888579387184%)
+
+  1%|██                                                                                                                                                                   | 3333/262050 [01:08<1:34:44, 45.52it/s]
+Episode: 3400 Mean Reward: -0.5460200000000001
+Accuracy: 0.46
+New States: 256 (63.84039900249377%)
+
+  1%|██▏                                                                                                                                                                  | 3423/262050 [01:10<1:35:49, 44.98it/s]
+Episode: 3500 Mean Reward: -0.38447999999999993
+Accuracy: 0.62
+New States: 193 (59.5679012345679%)
+
+
+  1%|██▎                                                                                                                                                                  | 3608/262050 [01:14<1:36:36, 44.58it/s]
+Episode: 3600 Mean Reward: -0.5547799999999999
+Accuracy: 0.45
+New States: 191 (56.342182890855455%)
+
+  1%|██▎                                                                                                                                                                  | 3698/262050 [01:16<1:34:23, 45.61it/s]
+Episode: 3700 Mean Reward: -0.5448
+Accuracy: 0.46
+New States: 191 (56.1764705882353%)
+
+  1%|██▍                                                                                                                                                                  | 3788/262050 [01:18<1:34:40, 45.47it/s]
+Episode: 3800 Mean Reward: -0.5445199999999999
+Accuracy: 0.46
+New States: 173 (53.06748466257669%)
+
+  1%|██▍                                                                                                                                                                  | 3878/262050 [01:20<1:35:05, 45.25it/s]
+Episode: 3900 Mean Reward: -0.43408
+Accuracy: 0.57
+New States: 162 (53.28947368421053%)
+
+  2%|██▍                                                                                                                                                                  | 3948/262050 [01:22<1:37:10, 44.27it/s]
+Episode: 4000 Mean Reward: -0.45312
+Accuracy: 0.55
+New States: 117 (45.703125%)
+
+  2%|██▌                                                                                                                                                                  | 4038/262050 [01:24<1:38:56, 43.46it/s]
+Episode: 4100 Mean Reward: -0.43443999999999994
+Accuracy: 0.57
+New States: 175 (54.34782608695652%)
+
+  2%|██▌                                                                                                                                                                  | 4133/262050 [01:26<1:34:38, 45.42it/s]
+Episode: 4200 Mean Reward: -0.3831799999999999
+Accuracy: 0.62
+New States: 119 (45.945945945945944%)
+
+  2%|██▋                                                                                                                                                                  | 4223/262050 [01:28<1:35:04, 45.20it/s]
+Episode: 4300 Mean Reward: -0.5042599999999999
+Accuracy: 0.5
+New States: 168 (53.674121405750796%)
+
+
+  2%|██▊                                                                                                                                                                  | 4403/262050 [01:32<1:36:27, 44.52it/s]
+Episode: 4400 Mean Reward: -0.4647
+Accuracy: 0.54
+New States: 183 (54.62686567164179%)
+
+  2%|██▊                                                                                                                                                                  | 4493/262050 [01:34<1:35:17, 45.04it/s]
+Episode: 4500 Mean Reward: -0.50432
+Accuracy: 0.5
+New States: 162 (51.265822784810126%)
+
+  2%|██▉                                                                                                                                                                  | 4588/262050 [01:36<1:35:51, 44.76it/s]
+Episode: 4600 Mean Reward: -0.48426
+Accuracy: 0.52
+New States: 147 (46.96485623003195%)
+
+  2%|██▉                                                                                                                                                                  | 4678/262050 [01:38<1:40:38, 42.62it/s]
+Episode: 4700 Mean Reward: -0.5134200000000001
+Accuracy: 0.49
+New States: 121 (44.64944649446495%)
+
+  2%|███                                                                                                                                                                  | 4768/262050 [01:40<1:34:53, 45.19it/s]
+Episode: 4800 Mean Reward: -0.40396
+Accuracy: 0.6
+New States: 150 (50.33557046979866%)
+
+  2%|███                                                                                                                                                                  | 4858/262050 [01:42<1:35:01, 45.11it/s]
+Episode: 4900 Mean Reward: -0.4936999999999999
+Accuracy: 0.51
+New States: 138 (48.421052631578945%)
+
+  2%|███                                                                                                                                                                  | 4948/262050 [01:44<1:35:08, 45.04it/s]
+Episode: 5000 Mean Reward: -0.4229
+Accuracy: 0.58
+New States: 105 (42.857142857142854%)
+
+  2%|███▏                                                                                                                                                                 | 5043/262050 [01:46<1:36:15, 44.50it/s]
+Episode: 5100 Mean Reward: -0.44337999999999994
+Accuracy: 0.56
+New States: 115 (42.75092936802974%)
+
+  2%|███▏                                                                                                                                                                 | 5133/262050 [01:48<1:35:36, 44.79it/s]
+Episode: 5200 Mean Reward: -0.39299999999999996
+Accuracy: 0.61
+New States: 88 (35.2%)
+
+  2%|███▎                                                                                                                                                                 | 5223/262050 [01:50<1:36:26, 44.39it/s]
+Episode: 5300 Mean Reward: -0.45332
+Accuracy: 0.55
+New States: 117 (43.984962406015036%)
+
+
+  2%|███▍                                                                                                                                                                 | 5403/262050 [01:54<1:35:34, 44.75it/s]
+Episode: 5400 Mean Reward: -0.42308
+Accuracy: 0.58
+New States: 107 (42.125984251968504%)
+
+  2%|███▍                                                                                                                                                                 | 5498/262050 [01:56<1:35:19, 44.86it/s]
+Episode: 5500 Mean Reward: -0.45362
+Accuracy: 0.55
+New States: 133 (47.330960854092524%)
+
+  2%|███▌                                                                                                                                                                 | 5563/262050 [01:58<1:34:35, 45.19it/s]
+Episode: 5600 Mean Reward: -0.4432400000000001
+Accuracy: 0.56
+New States: 117 (44.656488549618324%)
+
+  2%|███▌                                                                                                                                                                 | 5653/262050 [02:00<1:35:12, 44.88it/s]
+Episode: 5700 Mean Reward: -0.4435
+Accuracy: 0.56
+New States: 124 (45.09090909090909%)
+
+  2%|███▌                                                                                                                                                                 | 5743/262050 [02:02<1:36:43, 44.16it/s]
+Episode: 5800 Mean Reward: -0.40292
+Accuracy: 0.6
+New States: 108 (43.90243902439025%)
+
+  2%|███▋                                                                                                                                                                 | 5838/262050 [02:04<1:38:28, 43.36it/s]
+Episode: 5900 Mean Reward: -0.5029
+Accuracy: 0.5
+New States: 104 (42.44897959183673%)
+
+  2%|███▋                                                                                                                                                                 | 5928/262050 [02:06<1:34:26, 45.20it/s]
+Episode: 6000 Mean Reward: -0.35251999999999994
+Accuracy: 0.65
+New States: 74 (32.743362831858406%)
+
+  2%|███▊                                                                                                                                                                 | 6018/262050 [02:08<1:34:37, 45.10it/s]
+Episode: 6100 Mean Reward: -0.41278
+Accuracy: 0.59
+New States: 86 (35.98326359832636%)
+
+  2%|███▊                                                                                                                                                                 | 6108/262050 [02:10<1:35:20, 44.74it/s]
+Episode: 6200 Mean Reward: -0.36297999999999997
+Accuracy: 0.64
+New States: 104 (41.76706827309237%)
+
+
+  2%|███▉                                                                                                                                                                 | 6293/262050 [02:14<1:35:31, 44.63it/s]
+Episode: 6300 Mean Reward: -0.4233
+Accuracy: 0.58
+New States: 114 (43.0188679245283%)
+
+  2%|████                                                                                                                                                                 | 6383/262050 [02:16<1:36:56, 43.96it/s]
+Episode: 6400 Mean Reward: -0.39257999999999993
+Accuracy: 0.61
+New States: 90 (39.301310043668124%)
+
+  2%|████                                                                                                                                                                 | 6473/262050 [02:18<1:47:50, 39.50it/s]
+Episode: 6500 Mean Reward: -0.47303999999999996
+Accuracy: 0.53
+New States: 89 (35.317460317460316%)
+

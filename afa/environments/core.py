@@ -70,8 +70,9 @@ class AcquisitionEnv(gym.Env, metaclass=abc.ABCMeta):
 
         self._current_features = None
         self.current_observed_mask = np.zeros(self._index_shape, dtype=np.bool_)
+        self.current_observed_mask[:20] = True
 
-        acquisition_cost = acquisition_cost or 0.0
+        #acquisition_cost = acquisition_cost or 0.0
         if isinstance(acquisition_cost, float):
             self.acquisition_cost = np.ones(self._index_shape) * acquisition_cost
         else:
@@ -114,6 +115,7 @@ class AcquisitionEnv(gym.Env, metaclass=abc.ABCMeta):
         )
 
         self.current_observed_mask[:] = False
+        self.current_observed_mask[:20] = True
 
         return self._get_observation()
 
@@ -182,6 +184,7 @@ class DirectClassificationEnv(AcquisitionEnv):
         )
 
         self.current_observed_mask[:] = False
+        self.current_observed_mask[:20] = True
 
         return self._get_observation()
 

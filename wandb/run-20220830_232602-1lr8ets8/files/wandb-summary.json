@@ -1,0 +1,1 @@
+{"Reward": -0.09689999872818589, "Accuracy": 0.96, "New States(%):": 0.29895366218236175, "Number of Features Used": 25.69, "_timestamp": 1661927259, "_runtime": 10897, "_step": 2620, "Test Accuracy": 0.7359375, "Test Number of Features Used": 25.0125, "_wandb": {"runtime": 10898}}

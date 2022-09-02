@@ -1,0 +1,25 @@
+Metal device set to: Apple M1
+systemMemory: 8.00 GB
+maxCacheSize: 2.67 GB
+2022-08-29 10:26:00.755834: W tensorflow/core/platform/profile_utils/cpu_utils.cc:128] Failed to get CPU frequency: 0 Hz
+2022-08-29 10:26:02,583	INFO services.py:1456 -- View the Ray dashboard at [32m[1mhttp://127.0.0.1:8265
+[36m(pid=16912)[39m /opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/jax/_src/lib/__init__.py:33: UserWarning: JAX on Mac ARM machines is experimental and minimally tested. Please see https://github.com/google/jax/issues/5501 in the event of problems.
+[36m(pid=16912)[39m   warnings.warn("JAX on Mac ARM machines is experimental and minimally tested. "
+42
+  0%|                                                                                                                                                                                  | 0/262050 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/Q-table-replay.py", line 242, in <module>
+    main()
+  File "/Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/Q-table-replay.py", line 228, in main
+    qtable.train()
+  File "/Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/Q-table-replay.py", line 168, in train
+    self.lr = 1/ep
+ZeroDivisionError: division by zero
+Traceback (most recent call last):
+  File "/Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/Q-table-replay.py", line 242, in <module>
+    main()
+  File "/Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/Q-table-replay.py", line 228, in main
+    qtable.train()
+  File "/Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/Q-table-replay.py", line 168, in train
+    self.lr = 1/ep
+ZeroDivisionError: division by zero

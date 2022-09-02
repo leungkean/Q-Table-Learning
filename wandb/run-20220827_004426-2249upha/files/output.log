@@ -1,0 +1,86 @@
+
+2022-08-27 00:44:29.327426: W tensorflow/core/platform/profile_utils/cpu_utils.cc:128] Failed to get CPU frequency: 0 Hz
+Metal device set to: Apple M1
+systemMemory: 8.00 GB
+maxCacheSize: 2.67 GB
+2022-08-27 00:44:31,144	INFO services.py:1456 -- View the Ray dashboard at [32m[1mhttp://127.0.0.1:8265
+[36m(pid=66413)[39m /opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/jax/_src/lib/__init__.py:33: UserWarning: JAX on Mac ARM machines is experimental and minimally tested. Please see https://github.com/google/jax/issues/5501 in the event of problems.
+[36m(pid=66413)[39m   warnings.warn("JAX on Mac ARM machines is experimental and minimally tested. "
+  0%|                                                                                                                                                                        | 134/262050 [00:01<46:49, 93.23it/s]
+(40,)
+Episode: 100 Mean Reward: -0.48847524752475247
+Accuracy: 0.5247524752475248
+New States: 633 (82.3146944083225%)
+Q-table size: 634
+
+  0%|▏                                                                                                                                                                     | 272/262050 [00:03<1:18:48, 55.36it/s]
+Episode: 200 Mean Reward: -0.5234199999999999
+Accuracy: 0.49
+New States: 597 (77.43190661478599%)
+Q-table size: 1231
+
+  0%|▏                                                                                                                                                                     | 386/262050 [00:05<1:23:08, 52.45it/s]
+Episode: 300 Mean Reward: -0.48234
+Accuracy: 0.53
+New States: 534 (74.47698744769875%)
+Q-table size: 1765
+
+  0%|▎                                                                                                                                                                     | 494/262050 [00:07<1:21:47, 53.29it/s]
+Episode: 400 Mean Reward: -0.5414
+Accuracy: 0.47
+New States: 484 (72.23880597014926%)
+Q-table size: 2249
+
+  0%|▍                                                                                                                                                                     | 595/262050 [00:09<1:23:57, 51.90it/s]
+Episode: 500 Mean Reward: -0.5095999999999999
+Accuracy: 0.5
+New States: 385 (66.37931034482759%)
+Q-table size: 2634
+
+  0%|▍                                                                                                                                                                     | 702/262050 [00:11<1:26:42, 50.24it/s]
+Episode: 600 Mean Reward: -0.5311
+Accuracy: 0.48
+New States: 473 (72.21374045801527%)
+Q-table size: 3107
+(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+Episode: 700 Mean Reward: -0.56942
+Accuracy: 0.44
+New States: 373 (65.32399299474606%)
+Q-table size: 3480
+
+  0%|▌                                                                                                                                                                     | 802/262050 [00:14<1:27:37, 49.69it/s]
+Episode: 800 Mean Reward: -0.3705
+Accuracy: 0.64
+New States: 412 (65.92%)
+Q-table size: 3892
+
+  0%|▌                                                                                                                                                                     | 901/262050 [00:16<1:28:51, 48.98it/s]
+Episode: 900 Mean Reward: -0.48882
+Accuracy: 0.52
+New States: 335 (61.92236598890943%)
+Q-table size: 4227
+
+
+  0%|▋                                                                                                                                                                    | 1097/262050 [00:20<1:33:01, 46.76it/s]
+Episode: 1000 Mean Reward: -0.53886
+Accuracy: 0.47
+New States: 341 (62.79926335174954%)
+Q-table size: 4568
+(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 5, 2, 1, 2, 6, 0, 8, 2, 0, 1, 0, 0, 1, 2, 1, 2, 6, 1, 0)
+Episode: 1100 Mean Reward: -0.5878999999999999
+Accuracy: 0.42
+New States: 275 (55.55555555555556%)
+Q-table size: 4843
+
+  0%|▊                                                                                                                                                                    | 1197/262050 [00:22<1:29:49, 48.40it/s]
+Episode: 1200 Mean Reward: -0.52056
+Accuracy: 0.49
+New States: 399 (63.53503184713376%)
+Q-table size: 5242
+
+  0%|▊                                                                                                                                                                    | 1292/262050 [00:24<1:30:08, 48.21it/s]
+Episode: 1300 Mean Reward: -0.51786
+Accuracy: 0.49
+New States: 276 (55.98377281947262%)
+Q-table size: 5518
+

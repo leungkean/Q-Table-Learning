@@ -1,0 +1,22 @@
+Metal device set to: Apple M1
+systemMemory: 8.00 GB
+maxCacheSize: 2.67 GB
+2022-07-11 11:04:04.954920: W tensorflow/core/platform/profile_utils/cpu_utils.cc:128] Failed to get CPU frequency: 0 Hz
+2022-07-11 11:04:06,762	INFO services.py:1456 -- View the Ray dashboard at [32m[1mhttp://127.0.0.1:8265
+  0%|                                                                                                                                                             | 0/524100 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/Q-table-replay.py", line 239, in <module>
+    main()
+  File "/Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/Q-table-replay.py", line 225, in main
+    qtable.train()
+  File "/Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/Q-table-replay.py", line 118, in train
+    action = self.choose_action(self.q_table[s], actions_remain, s)
+TypeError: choose_action() takes 3 positional arguments but 4 were given
+Traceback (most recent call last):
+  File "/Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/Q-table-replay.py", line 239, in <module>
+    main()
+  File "/Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/Q-table-replay.py", line 225, in main
+    qtable.train()
+  File "/Users/keanl/Desktop/Computer_Science/Research/Q-Table-Learning/Q-table-replay.py", line 118, in train
+    action = self.choose_action(self.q_table[s], actions_remain, s)
+TypeError: choose_action() takes 3 positional arguments but 4 were given

@@ -23,3 +23,109 @@ config: {'env': 'molecule_20', 'lr': 0.0005, 'lr_decay': 0.0, 'y': 0.99, 'eps': 
 2022-07-10 10:26:12,162 INFO    MainThread:67116 [wandb_run.py:_redirect():1776] Redirecting console.
 2022-07-10 10:26:12,163 INFO    MainThread:67116 [wandb_run.py:_redirect():1832] Redirects installed.
 2022-07-10 10:26:12,163 INFO    MainThread:67116 [wandb_init.py:init():688] run started, returning control to user process
+2022-07-10 15:52:08,628 INFO    MainThread:67116 [wandb_run.py:_atexit_cleanup():1867] got exitcode: 0
+2022-07-10 15:52:08,644 INFO    MainThread:67116 [wandb_run.py:_restore():1839] restore
+2022-07-10 15:52:11,154 INFO    MainThread:67116 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 530
+  total_bytes: 530
+}
+
+2022-07-10 15:52:11,573 INFO    MainThread:67116 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 530
+  total_bytes: 530
+}
+
+2022-07-10 15:52:11,746 INFO    MainThread:67116 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 530
+  total_bytes: 2262919
+}
+
+2022-07-10 15:52:11,850 INFO    MainThread:67116 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 530
+  total_bytes: 2272249
+}
+
+2022-07-10 15:52:11,955 INFO    MainThread:67116 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 334311
+  total_bytes: 2272249
+}
+
+2022-07-10 15:52:12,061 INFO    MainThread:67116 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 2272249
+  total_bytes: 2272249
+}
+
+2022-07-10 15:52:12,163 INFO    MainThread:67116 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 2272249
+  total_bytes: 2272249
+}
+
+2022-07-10 15:52:12,267 INFO    MainThread:67116 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 2272249
+  total_bytes: 2272249
+}
+
+2022-07-10 15:52:12,369 INFO    MainThread:67116 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 2272249
+  total_bytes: 2272249
+}
+
+2022-07-10 15:52:12,470 INFO    MainThread:67116 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 2272249
+  total_bytes: 2272249
+}
+
+2022-07-10 15:52:12,694 INFO    MainThread:67116 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 2272249
+  total_bytes: 2272249
+}
+
+2022-07-10 15:52:12,960 INFO    MainThread:67116 [wandb_run.py:_on_finish():1996] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 2272249
+  total_bytes: 2272249
+}
+local_info {
+}
+
+2022-07-10 15:52:14,177 INFO    MainThread:67116 [wandb_run.py:_footer_history_summary_info():3104] rendering history
+2022-07-10 15:52:14,178 INFO    MainThread:67116 [wandb_run.py:_footer_history_summary_info():3136] rendering summary
+2022-07-10 15:52:14,180 INFO    MainThread:67116 [wandb_run.py:_footer_sync_info():3060] logging synced files

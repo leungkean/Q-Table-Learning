@@ -11,6 +11,15 @@ import afa.datasets.power
 import afa.datasets.molecule
 import afa.datasets.molecule_small
 import afa.datasets.molecule_20
+import afa.datasets.psych_Compulsivity
+import afa.datasets.psych_DetatchDay
+import afa.datasets.psych_Exhibitionism
+import afa.datasets.psych_HostileDay
+import afa.datasets.psych_ImpulsivityDay
+import afa.datasets.psych_ManipDay
+import afa.datasets.psych_NegAffDay
+import afa.datasets.psych_PsychoDay
+import afa.datasets.psych_Urgency
 
 
 # The below code is a workaround to disable a warning message that is coming from

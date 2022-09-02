@@ -1,0 +1,35 @@
+Compulsivity:
+Test:
+30/30 [==============================] - 0s 4ms/step - loss: 0.4032 - accuracy: 0.9094
+
+DetatchDay:
+Test:
+30/30 [==============================] - 0s 4ms/step - loss: 0.3407 - accuracy: 0.9347
+
+Exhibitionism:
+Test:
+30/30 [==============================] - 0s 4ms/step - loss: 0.3786 - accuracy: 0.9031
+
+HostileDay:
+Test:
+30/30 [==============================] - 0s 4ms/step - loss: 0.0392 - accuracy: 0.9989
+
+ImpulsivityDay:
+Test:
+30/30 [==============================] - 0s 4ms/step - loss: 0.1743 - accuracy: 0.9621
+
+ManipDay:
+Test:
+30/30 [==============================] - 0s 4ms/step - loss: 0.1417 - accuracy: 0.9652
+
+NegAffDay:
+Test:
+30/30 [==============================] - 0s 4ms/step - loss: 0.1192 - accuracy: 0.9642
+
+PsychoDay:
+Test:
+30/30 [==============================] - 0s 4ms/step - loss: 0.5608 - accuracy: 0.8588
+
+Urgency:
+Test:
+30/30 [==============================] - 0s 4ms/step - loss: 0.0175 - accuracy: 0.9989
