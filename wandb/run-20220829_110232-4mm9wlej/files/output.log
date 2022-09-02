@@ -1,7 +1,0 @@
-Metal device set to: Apple M1
-systemMemory: 8.00 GB
-maxCacheSize: 2.67 GB
-2022-08-29 11:02:35.211026: W tensorflow/core/platform/profile_utils/cpu_utils.cc:128] Failed to get CPU frequency: 0 Hz
-2022-08-29 11:02:37,045	INFO services.py:1456 -- View the Ray dashboard at [32m[1mhttp://127.0.0.1:8265
-[36m(pid=17486)[39m /opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/jax/_src/lib/__init__.py:33: UserWarning: JAX on Mac ARM machines is experimental and minimally tested. Please see https://github.com/google/jax/issues/5501 in the event of problems.
-[36m(pid=17486)[39m   warnings.warn("JAX on Mac ARM machines is experimental and minimally tested. "
