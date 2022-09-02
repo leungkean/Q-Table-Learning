@@ -1,5 +1,5 @@
 # Q-Table-Learning
-Training an MDP agent using Q-Learning with a Q-table on Molecule Dataset.
+Training an MDP agent using Q-Learning with a Q-table on Molecule Dataset following the algorithm described [here](https://en.wikipedia.org/wiki/Q-learning#Algorithm).
 
 ## Setup and Initialization
 
