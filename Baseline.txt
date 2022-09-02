@@ -1,35 +1,35 @@
 Compulsivity:
 Test:
-30/30 [==============================] - 0s 4ms/step - loss: 0.4032 - accuracy: 0.9094
+30/30 [==============================] - 0s 5ms/step - loss: 0.5572 - accuracy: 0.8841
 
 DetatchDay:
 Test:
-30/30 [==============================] - 0s 4ms/step - loss: 0.3407 - accuracy: 0.9347
+30/30 [==============================] - 0s 6ms/step - loss: 0.7709 - accuracy: 0.8925
 
 Exhibitionism:
 Test:
-30/30 [==============================] - 0s 4ms/step - loss: 0.3786 - accuracy: 0.9031
+30/30 [==============================] - 0s 5ms/step - loss: 1.0996 - accuracy: 0.8588
 
 HostileDay:
 Test:
-30/30 [==============================] - 0s 4ms/step - loss: 0.0392 - accuracy: 0.9989
+30/30 [==============================] - 0s 4ms/step - loss: 1.1300 - accuracy: 0.8736
 
 ImpulsivityDay:
 Test:
-30/30 [==============================] - 0s 4ms/step - loss: 0.1743 - accuracy: 0.9621
+30/30 [==============================] - 0s 5ms/step - loss: 0.3367 - accuracy: 0.9821
 
 ManipDay:
 Test:
-30/30 [==============================] - 0s 4ms/step - loss: 0.1417 - accuracy: 0.9652
+30/30 [==============================] - 0s 4ms/step - loss: 0.3713 - accuracy: 0.9652
 
 NegAffDay:
 Test:
-30/30 [==============================] - 0s 4ms/step - loss: 0.1192 - accuracy: 0.9642
+30/30 [==============================] - 0s 5ms/step - loss: 0.8283 - accuracy: 0.9315
 
 PsychoDay:
 Test:
-30/30 [==============================] - 0s 4ms/step - loss: 0.5608 - accuracy: 0.8588
+30/30 [==============================] - 0s 4ms/step - loss: 1.1496 - accuracy: 0.8462
 
 Urgency:
 Test:
-30/30 [==============================] - 0s 4ms/step - loss: 0.0175 - accuracy: 0.9989
+30/30 [==============================] - 0s 4ms/step - loss: 2.0910e-05 - accuracy: 1.0000

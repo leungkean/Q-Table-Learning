@@ -5,7 +5,7 @@ import gdown
 import tensorflow as tf
 import tensorflow_datasets as tfds
 
-url="https://drive.google.com/file/d/1q2EuajH08pIu24sKvmVQG_1VqZa6-kDr/view?usp=sharing"
+url="https://drive.google.com/file/d/1kaUe7Ti5zdm7AuviAyNYdBzq1DAzKEo-/view?usp=sharing"
 
 class Psych_Compulsivity(tfds.core.GeneratorBasedBuilder):
     VERSION = tfds.core.Version("1.0.0")

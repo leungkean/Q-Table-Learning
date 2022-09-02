@@ -5,7 +5,7 @@ import gdown
 import tensorflow as tf
 import tensorflow_datasets as tfds
 
-url="https://drive.google.com/file/d/11JIs_oDALTmiMXg3mMxDMZV-izP6ylI2/view?usp=sharing"
+url="https://drive.google.com/file/d/1BS3y9xCfdSZIXNpzTjmjjvNe9TlwXrId/view?usp=sharing"
 
 class Psych_DetatchDay(tfds.core.GeneratorBasedBuilder):
     VERSION = tfds.core.Version("1.0.0")
